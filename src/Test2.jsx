@@ -11,7 +11,7 @@ const Test2 =  ()=>{
   return (
   <div>
     <input name="text" onChange={onChangeHander}/>
-    {logs.maps(str => <p>{str}</p>)}
+    {logs.maps((str,i) => <p key={i +" "+ str}>{str}</p>)}
   </div>
   );
 }
