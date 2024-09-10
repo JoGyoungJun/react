@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Test2 from './Test2';
 import Calc from './calc';
+import Humaninfo from './humaninfo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Calc />
+    <Humaninfo />
 );
 
 // If you want to start measuring performance in your app, pass a function
